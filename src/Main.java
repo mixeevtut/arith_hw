@@ -10,5 +10,11 @@ public class Main {
         double b = in1.nextDouble();
         double x = b/a;
         System.out.println("X = " + x);
+        if (x%2==0){
+            System.out.println("Результат чётный");
+        }
+        else {
+            System.out.println("Результат нечётный");
+        }
     }
 }
